@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Home route
 @app.route('/')
 def home():
-    return "Hello Dev! 👋 Ye tumhari first API hai!"
+    return "Hello Dev! 👋 Ye tumhari first API hai..!"
 
 # Example API endpoint
 @app.route('/api/data', methods=['GET'])
